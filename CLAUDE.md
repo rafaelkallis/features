@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Dev Container Features monorepo - a collection of reusable development environment configurations for the Dev Containers specification. Features are Docker-based components that extend dev containers with tools and configurations.
+Dev Container Features monorepo containing custom features for development environments. Currently includes:
+
+- **claude-code-mounts**: Mounts host Claude CLI configuration (`~/.claude/` and `~/.claude.json`) into dev containers via bind mounts and symlinks.
 
 ## Commands
 
