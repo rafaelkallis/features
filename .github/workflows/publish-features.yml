@@ -24,9 +24,3 @@ jobs:
       - run: devcontainer features publish -r ghcr.io -n ${{ github.repository }} src
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  update-main-readme:
-    needs: publish-features
-    permissions:
-      contents: write
-    uses: ./.github/workflows/update-main-readme.yml
-    secrets: inherit
