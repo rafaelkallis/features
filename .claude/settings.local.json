@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_rk-tavily_tavily__tavily_search",
+      "mcp__plugin_rk-tavily_tavily__tavily_extract",
+      "Bash(tree:*)",
+      "mcp__plugin_rk-tavily_tavily__tavily_crawl",
+      "Bash(curl:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
