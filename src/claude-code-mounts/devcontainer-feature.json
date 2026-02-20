@@ -1,11 +1,11 @@
 {
     "name": "Claude Code CLI Mounts",
     "id": "claude-code-mounts",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Mounts host Claude configuration directories into the dev container",
     "options": {},
     "installsAfter": [
-        "ghcr.io/anthropics/devcontainer-features/claude-code:1"
+        "ghcr.io/anthropics/devcontainer-features/claude-code"
     ],
     "mounts": [
         {
