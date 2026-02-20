@@ -19,7 +19,7 @@ Mounts host Claude configuration directories into the dev container, enabling Cl
 // devcontainer.json
 {
   "features": {
-    "ghcr.io/rafaelkallis/features/claude-code-mounts": {}
+    "ghcr.io/rafaelkallis/features/claude-code-mounts:1": {}
   }
 }
 ```
